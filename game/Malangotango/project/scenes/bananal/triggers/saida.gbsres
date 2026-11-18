@@ -1,0 +1,44 @@
+{
+  "_resourceType": "trigger",
+  "id": "d0c41dee-f16b-5dd2-9ab7-c3badc96de91",
+  "_index": 0,
+  "symbol": "t_bananal_saida",
+  "prefabId": "",
+  "name": "Saída → Cais das Estacas",
+  "x": 188,
+  "y": 0,
+  "width": 4,
+  "height": 16,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "ea94e685-2c2c-5ce2-a724-5a784da4b367",
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "tone",
+        "frequency": 820,
+        "duration": 0.1,
+        "wait": false,
+        "priority": "medium"
+      }
+    },
+    {
+      "id": "bf3574d1-b40d-5313-97d7-f465277254cf",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "c146072a-f0e5-5539-afd1-4bd4a1a0ea00",
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        },
+        "direction": "right",
+        "fadeSpeed": "1"
+      }
+    }
+  ],
+  "leaveScript": []
+}

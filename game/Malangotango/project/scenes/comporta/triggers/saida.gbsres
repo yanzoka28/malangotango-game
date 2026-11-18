@@ -1,0 +1,83 @@
+{
+  "_resourceType": "trigger",
+  "id": "aaf4e226-9adf-5161-9f20-edaaf0747c8c",
+  "_index": 0,
+  "symbol": "t_comporta_saida",
+  "prefabId": "",
+  "name": "Saída → Vitória",
+  "x": 212,
+  "y": 0,
+  "width": 4,
+  "height": 16,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "c4ff6409-ac93-5076-baad-2bd4c5399017",
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__disableElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "a543e6f8-6680-5e16-bb6c-5896f39baf2a",
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "tone",
+              "frequency": 990,
+              "duration": 0.16,
+              "wait": false,
+              "priority": "medium"
+            }
+          },
+          {
+            "id": "812ddaf4-d564-52b8-8508-99c41ac9632e",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "ba247379-0f52-5fea-86bd-d42229906561",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "right",
+              "fadeSpeed": "1"
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "87f1830e-01d1-5dd4-b30f-e5fd1534b722",
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "Roda travada!\nO Guarda Rubro\nresiste a 3 golpes.",
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 5,
+              "showFrame": true,
+              "speedIn": 1,
+              "speedOut": 1,
+              "closeWhen": "key",
+              "closeButton": "a"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "leaveScript": []
+}

@@ -1,0 +1,116 @@
+{
+  "_resourceType": "settings",
+  "startSceneId": "62ebd04b-8112-54a6-a028-fa9c79f9a337",
+  "startX": 9,
+  "startY": 9,
+  "startMoveSpeed": 1,
+  "startAnimSpeed": 15,
+  "startDirection": "right",
+  "showCollisionExtraTiles": false,
+  "showCollisionTileValues": false,
+  "collisionLayerOpacity": 50,
+  "sgbEnabled": false,
+  "customHead": "",
+  "defaultBackgroundPaletteIds": [
+    "d385b532-e021-5f02-9600-55a2ff0b9c5d",
+    "0d4113c8-e0aa-5dbf-b5a8-ddb70d9cba71",
+    "70f0d1e3-fb25-5898-ac23-eae21eab7d8f",
+    "b07ba01f-ecd1-5cb3-89c1-5b3d828b18fc",
+    "a95886bd-6762-5bd0-be45-cd7c5c0fc7d3",
+    "a1d43318-b28d-5615-a6a7-c86e619ed725",
+    "5cbd90b9-77b4-524c-9e57-847b9d03e26f",
+    "195506ff-e16f-5cdd-a114-d5762970c319"
+  ],
+  "defaultSpritePaletteIds": [
+    "a1f8d795-26c6-59c4-9735-010136bf669e",
+    "979674bb-aad4-521e-aa27-d098dfc2d95f",
+    "3df097f5-439d-5d1d-bbdd-c40b63622644",
+    "ce544fcc-4cfa-5b22-839b-0705f85b729c",
+    "a5eaf9a7-e82b-5320-a7c1-89312c8dff3f",
+    "2ee02032-4922-521c-9440-13d3ab19455a",
+    "5c478451-e9fc-5014-83b0-e5e93e40b9dd",
+    "00d97e2e-2eaa-5893-81e3-11d76946310d"
+  ],
+  "defaultSpritePaletteId": "default-sprite",
+  "defaultUIPaletteId": "195506ff-e16f-5cdd-a114-d5762970c319",
+  "playerPaletteId": "",
+  "defaultMonoBGP": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "defaultMonoOBP0": [
+    0,
+    1,
+    3
+  ],
+  "defaultMonoOBP1": [
+    0,
+    2,
+    3
+  ],
+  "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
+  "defaultCharacterEncoding": "",
+  "defaultPlayerSprites": {
+    "TOPDOWN": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "PLATFORM": "74559361-835f-521e-8464-bd74ff058089",
+    "ADVENTURE": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "SHMUP": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "POINTNCLICK": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "LOGO": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+  },
+  "musicDriver": "huge",
+  "cartType": "mbc5",
+  "batterylessEnabled": false,
+  "customColorsWhite": "E8F8E0",
+  "customColorsLight": "B0F088",
+  "customColorsDark": "509878",
+  "customColorsBlack": "202850",
+  "customControlsUp": [
+    "ArrowUp",
+    "w"
+  ],
+  "customControlsDown": [
+    "ArrowDown",
+    "s"
+  ],
+  "customControlsLeft": [
+    "ArrowLeft",
+    "a"
+  ],
+  "customControlsRight": [
+    "ArrowRight",
+    "d"
+  ],
+  "customControlsA": [
+    "Alt",
+    "z",
+    "j"
+  ],
+  "customControlsB": [
+    "Control",
+    "k",
+    "x"
+  ],
+  "customControlsStart": [
+    "Enter"
+  ],
+  "customControlsSelect": [
+    "Shift"
+  ],
+  "colorMode": "color",
+  "colorCorrection": "default",
+  "generateDebugFilesEnabled": false,
+  "compilerPreset": 3000,
+  "scriptEventPresets": {},
+  "scriptEventDefaultPresets": {},
+  "runSceneSelectionOnly": false,
+  "spriteMode": "8x16",
+  "openBuildFolderOnExport": true,
+  "showRomUsageAfterBuild": false,
+  "romFilename": "Malangotango.gbc",
+  "defaultSceneTypeId": "PLATFORM",
+  "disabledSceneTypeIds": [],
+  "autoTileFlipEnabled": true
+}

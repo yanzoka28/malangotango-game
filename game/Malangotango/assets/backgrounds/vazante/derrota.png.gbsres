@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9c975ce1-db00-5c04-8b34-cd1a20c08093",
+  "name": "vazante/derrota",
+  "symbol": "bg_derrota",
+  "tileColors": "008d+0112+002+0112+002+0112+002+0112+002+0112+002+0112+002a+0612+002+0612+0015+",
+  "filename": "vazante/derrota.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "8fa2698b-2e31-5cde-9035-5a4a4d09dfd3",
+  "name": "vazante/vitoria",
+  "symbol": "bg_vitoria",
+  "tileColors": "008d+0412+002+0412+002+0412+002+0412+002+0412+002+0412+002a+0612+002+0612+0015+",
+  "filename": "vazante/vitoria.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

@@ -1,0 +1,44 @@
+{
+  "_resourceType": "trigger",
+  "id": "be785787-65b4-5829-9af6-29079958ff6f",
+  "_index": 0,
+  "symbol": "t_cais_saida",
+  "prefabId": "",
+  "name": "Saída → Galeria do Eco",
+  "x": 196,
+  "y": 0,
+  "width": 4,
+  "height": 16,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "bc774de3-525c-54d5-b226-9a398f919ed5",
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "tone",
+        "frequency": 820,
+        "duration": 0.1,
+        "wait": false,
+        "priority": "medium"
+      }
+    },
+    {
+      "id": "21a014b7-a38f-58a9-a7df-53f272021c22",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "44808ccf-5b8b-517c-88f4-a734322e6890",
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        },
+        "direction": "right",
+        "fadeSpeed": "1"
+      }
+    }
+  ],
+  "leaveScript": []
+}

@@ -1,0 +1,129 @@
+{
+  "nodes": [
+    {
+      "id": "titulo",
+      "type": "file",
+      "x": 0,
+      "y": 0,
+      "width": 260,
+      "height": 110,
+      "file": "README.md",
+      "color": "5"
+    },
+    {
+      "id": "fase1",
+      "type": "file",
+      "x": 0,
+      "y": 170,
+      "width": 260,
+      "height": 110,
+      "file": "Documentacao/01-Bananal.md",
+      "color": "4"
+    },
+    {
+      "id": "fase2",
+      "type": "file",
+      "x": 0,
+      "y": 340,
+      "width": 260,
+      "height": 110,
+      "file": "Documentacao/02-Cais.md",
+      "color": "4"
+    },
+    {
+      "id": "fase3",
+      "type": "file",
+      "x": 0,
+      "y": 510,
+      "width": 260,
+      "height": 110,
+      "file": "Documentacao/03-Galeria.md",
+      "color": "4"
+    },
+    {
+      "id": "fase4",
+      "type": "file",
+      "x": 0,
+      "y": 680,
+      "width": 260,
+      "height": 110,
+      "file": "Documentacao/04-Comporta.md",
+      "color": "4"
+    },
+    {
+      "id": "vitoria",
+      "type": "text",
+      "x": 0,
+      "y": 850,
+      "width": 260,
+      "height": 110,
+      "text": "# Vitória\nRio livre. Start volta ao título.",
+      "color": "4"
+    },
+    {
+      "id": "falta",
+      "type": "text",
+      "x": 355,
+      "y": 345,
+      "width": 260,
+      "height": 110,
+      "text": "# Zero corações\nPode acontecer em qualquer fase.",
+      "color": "1"
+    },
+    {
+      "id": "derrota",
+      "type": "text",
+      "x": 355,
+      "y": 515,
+      "width": 260,
+      "height": 110,
+      "text": "# Derrota\nStart recarrega a fase atual com 3 corações e o chicote da entrada.",
+      "color": "1"
+    }
+  ],
+  "edges": [
+    {
+      "id": "titulo-fase1",
+      "fromNode": "titulo",
+      "fromSide": "bottom",
+      "toNode": "fase1",
+      "toSide": "top"
+    },
+    {
+      "id": "fase1-fase2",
+      "fromNode": "fase1",
+      "fromSide": "bottom",
+      "toNode": "fase2",
+      "toSide": "top"
+    },
+    {
+      "id": "fase2-fase3",
+      "fromNode": "fase2",
+      "fromSide": "bottom",
+      "toNode": "fase3",
+      "toSide": "top"
+    },
+    {
+      "id": "fase3-fase4",
+      "fromNode": "fase3",
+      "fromSide": "bottom",
+      "toNode": "fase4",
+      "toSide": "top"
+    },
+    {
+      "id": "fase4-vitoria",
+      "fromNode": "fase4",
+      "fromSide": "bottom",
+      "toNode": "vitoria",
+      "toSide": "top",
+      "label": "Guarda vencido"
+    },
+    {
+      "id": "falta-derrota",
+      "fromNode": "falta",
+      "fromSide": "bottom",
+      "toNode": "derrota",
+      "toSide": "top"
+    }
+  ]
+}

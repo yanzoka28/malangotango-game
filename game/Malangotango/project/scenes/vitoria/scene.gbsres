@@ -1,0 +1,75 @@
+{
+  "_resourceType": "scene",
+  "id": "ba247379-0f52-5fea-86bd-d42229906561",
+  "_index": 5,
+  "type": "TOPDOWN",
+  "name": "05 · Vitória",
+  "symbol": "scene_vitoria",
+  "x": 48,
+  "y": 500,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "8fa2698b-2e31-5cde-9035-5a4a4d09dfd3",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "d385b532-e021-5f02-9600-55a2ff0b9c5d",
+    "0d4113c8-e0aa-5dbf-b5a8-ddb70d9cba71",
+    "70f0d1e3-fb25-5898-ac23-eae21eab7d8f",
+    "b07ba01f-ecd1-5cb3-89c1-5b3d828b18fc",
+    "a95886bd-6762-5bd0-be45-cd7c5c0fc7d3",
+    "a1d43318-b28d-5615-a6a7-c86e619ed725",
+    "5cbd90b9-77b4-524c-9e57-847b9d03e26f",
+    "195506ff-e16f-5cdd-a114-d5762970c319"
+  ],
+  "spritePaletteIds": [
+    "a1f8d795-26c6-59c4-9735-010136bf669e",
+    "979674bb-aad4-521e-aa27-d098dfc2d95f",
+    "3df097f5-439d-5d1d-bbdd-c40b63622644",
+    "ce544fcc-4cfa-5b22-839b-0705f85b729c",
+    "a5eaf9a7-e82b-5320-a7c1-89312c8dff3f",
+    "2ee02032-4922-521c-9440-13d3ab19455a",
+    "5c478451-e9fc-5014-83b0-e5e93e40b9dd",
+    "00d97e2e-2eaa-5893-81e3-11d76946310d"
+  ],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "5d8bc0e3-17b9-5520-8262-4760f47e7a55",
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "player"
+      }
+    },
+    {
+      "id": "772391ca-411b-5a26-9273-e58657cce620",
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "start"
+        ]
+      }
+    },
+    {
+      "id": "fffd44fa-e59c-562c-b13e-85286f30c6b6",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "62ebd04b-8112-54a6-a028-fa9c79f9a337",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "right",
+        "fadeSpeed": "1"
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}

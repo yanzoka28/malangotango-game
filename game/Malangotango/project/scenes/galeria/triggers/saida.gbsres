@@ -1,0 +1,44 @@
+{
+  "_resourceType": "trigger",
+  "id": "0c6b8db7-057b-5bf7-a0ca-95932c8b0758",
+  "_index": 0,
+  "symbol": "t_galeria_saida",
+  "prefabId": "",
+  "name": "Saída → Casa da Comporta",
+  "x": 204,
+  "y": 0,
+  "width": 4,
+  "height": 16,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "1458a1dd-b7de-5a68-8a84-3b349bf7344f",
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "tone",
+        "frequency": 820,
+        "duration": 0.1,
+        "wait": false,
+        "priority": "medium"
+      }
+    },
+    {
+      "id": "881dbac4-d44e-55af-b71a-107ac6310603",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "6431ea33-b806-5393-b835-b3f0ae9e5aed",
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        },
+        "direction": "right",
+        "fadeSpeed": "1"
+      }
+    }
+  ],
+  "leaveScript": []
+}

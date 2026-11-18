@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b9daa38c-5d98-5fe0-8198-6f424b6792f8",
+  "name": "vazante/inicio",
+  "symbol": "bg_inicio",
+  "tileColors": "008d+0212+002+0212+002+0212+002+0212+002+0212+002+0212+002a+0612+002+0612+0015+",
+  "filename": "vazante/inicio.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

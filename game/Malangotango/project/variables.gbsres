@@ -1,0 +1,66 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Corações",
+      "symbol": "var_vida"
+    },
+    {
+      "id": "1",
+      "name": "Chicote equipado",
+      "symbol": "var_chicote"
+    },
+    {
+      "id": "2",
+      "name": "Fase atual",
+      "symbol": "var_fase"
+    },
+    {
+      "id": "3",
+      "name": "Proteção após dano",
+      "symbol": "var_protecao"
+    },
+    {
+      "id": "4",
+      "name": "Chicote no início da fase",
+      "symbol": "var_entrada_chicote"
+    },
+    {
+      "id": "5",
+      "name": "Guarda Rubro vencido",
+      "symbol": "var_guarda"
+    },
+    {
+      "id": "6",
+      "name": "Intervalo do golpe",
+      "symbol": "var_golpe"
+    },
+    {
+      "id": "7",
+      "name": "Queda / X",
+      "symbol": "var_queda_x"
+    },
+    {
+      "id": "8",
+      "name": "Queda / Y",
+      "symbol": "var_queda_y"
+    },
+    {
+      "id": "12",
+      "name": "Língua caída 1",
+      "symbol": "var_drop_1"
+    },
+    {
+      "id": "13",
+      "name": "Língua caída 2",
+      "symbol": "var_drop_2"
+    },
+    {
+      "id": "14",
+      "name": "Língua caída 3",
+      "symbol": "var_drop_3"
+    }
+  ],
+  "constants": []
+}

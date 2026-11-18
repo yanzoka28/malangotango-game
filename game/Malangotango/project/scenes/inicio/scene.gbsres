@@ -1,0 +1,149 @@
+{
+  "_resourceType": "scene",
+  "id": "62ebd04b-8112-54a6-a028-fa9c79f9a337",
+  "_index": 0,
+  "type": "TOPDOWN",
+  "name": "00 · Início",
+  "symbol": "scene_inicio",
+  "x": 48,
+  "y": 48,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "b9daa38c-5d98-5fe0-8198-6f424b6792f8",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "d385b532-e021-5f02-9600-55a2ff0b9c5d",
+    "0d4113c8-e0aa-5dbf-b5a8-ddb70d9cba71",
+    "70f0d1e3-fb25-5898-ac23-eae21eab7d8f",
+    "b07ba01f-ecd1-5cb3-89c1-5b3d828b18fc",
+    "a95886bd-6762-5bd0-be45-cd7c5c0fc7d3",
+    "a1d43318-b28d-5615-a6a7-c86e619ed725",
+    "5cbd90b9-77b4-524c-9e57-847b9d03e26f",
+    "195506ff-e16f-5cdd-a114-d5762970c319"
+  ],
+  "spritePaletteIds": [
+    "a1f8d795-26c6-59c4-9735-010136bf669e",
+    "979674bb-aad4-521e-aa27-d098dfc2d95f",
+    "3df097f5-439d-5d1d-bbdd-c40b63622644",
+    "ce544fcc-4cfa-5b22-839b-0705f85b729c",
+    "a5eaf9a7-e82b-5320-a7c1-89312c8dff3f",
+    "2ee02032-4922-521c-9440-13d3ab19455a",
+    "5c478451-e9fc-5014-83b0-e5e93e40b9dd",
+    "00d97e2e-2eaa-5893-81e3-11d76946310d"
+  ],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "a8c5dbcb-031a-5a11-ad35-83395ae0069c",
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "player"
+      }
+    },
+    {
+      "id": "afe60097-5ca5-52b4-adc7-56e5ca4310b6",
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "start"
+        ]
+      }
+    },
+    {
+      "id": "512f3d11-fa7b-5d06-9b03-53454939659e",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "number",
+          "value": 3
+        }
+      }
+    },
+    {
+      "id": "20b2dc1b-0f11-5f82-943f-2fd30b6a9c27",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "9fc0a3ae-bdc7-5dec-900a-2c833813b370",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    {
+      "id": "6f9898e9-8ebd-5100-ae82-2d3b4887a2b2",
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "tone",
+        "frequency": 660,
+        "duration": 0.09,
+        "wait": false,
+        "priority": "medium"
+      }
+    },
+    {
+      "id": "e67546c2-14bb-5792-b8df-b8811991a779",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "O rio do bananal\nparou de correr.\nMalango vai subir\nate a barragem.",
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "showFrame": true,
+        "speedIn": 1,
+        "speedOut": 1,
+        "closeWhen": "key",
+        "closeButton": "a"
+      }
+    },
+    {
+      "id": "ba64adf7-4b08-5bf7-b8fc-33a905263672",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "A pula. B golpeia.\nBanana cura. Sapo\nvermelho deixa um\nchicote de lingua.",
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 5,
+        "showFrame": true,
+        "speedIn": 1,
+        "speedOut": 1,
+        "closeWhen": "key",
+        "closeButton": "a"
+      }
+    },
+    {
+      "id": "613365a8-4d42-5933-ae60-7139072fca50",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "31a2324a-fd8a-5f94-b63b-b09059f6902e",
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        },
+        "direction": "right",
+        "fadeSpeed": "1"
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}
